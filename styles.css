@@ -9,9 +9,32 @@
 .green {
   background: green;
 }
-table, th, td {
-  border: 1px solid black; 
+.blue,
+.green,
+.yellow {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+table {
+  margin-top: 2rem;
+}
+table,
+th,
+td {
+  border: 1px solid black;
 }
 table {
   border-collapse: collapse;
+}
+
+.green:hover,
+.yellow:hover,
+.blue:hover {
+  height: 100px;
+  width: 100%;
 }
